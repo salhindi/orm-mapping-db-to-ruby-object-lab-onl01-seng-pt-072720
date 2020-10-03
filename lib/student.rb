@@ -106,8 +106,8 @@ class Student
   end
   
   def self.first_student_in_grade_10 
-    s = self.first_X_students_in_grade_10(1)
-    s.map
+    s = self.first_X_students_in_grade_10(0)
+    
     
      DB[:conn].execute
   end
