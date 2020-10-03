@@ -122,7 +122,7 @@ end
     LIMIT 1
     SQL
     
-    DB[:conn].execute(sql, 0).map do |row|
+    DB[:conn].execute(sql, '0').map do |row|
   self.new_from_db(row)
 end
     
