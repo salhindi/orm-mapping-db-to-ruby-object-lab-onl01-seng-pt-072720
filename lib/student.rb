@@ -69,8 +69,7 @@ end
       FROM students 
     SQL
     
-    DB[:conn].execute(sql).map do |row| 
-      self.new_from_db(row)
+    DB[:conn].execute(sql)
     end
   end
   
