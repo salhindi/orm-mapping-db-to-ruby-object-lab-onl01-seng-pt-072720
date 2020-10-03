@@ -125,6 +125,6 @@ end
     DB[:conn].execute(sql)
     
  
-  end.first
+  end
 end
 
