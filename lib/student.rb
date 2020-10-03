@@ -116,8 +116,8 @@ end
   
   def self.first_student_in_grade_10 
     
-    
-    DB[:conn].executeself.first_X_students_in_grade_10(0)
+    self.first_X_students_in_grade_10(0)
+    DB[:conn].execute
     
  
   end
